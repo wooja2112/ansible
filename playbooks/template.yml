@@ -1,0 +1,5 @@
+- hosts: "*"
+  become: no
+  tasks:
+    - name: script
+      script: ../scripts/create-template.sh
